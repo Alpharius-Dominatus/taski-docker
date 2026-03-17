@@ -17,7 +17,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt --no-cache-dir
 
 # Скопировать всё необходимое содержимое 
-# той директории локального компьютера, где сохранён Dockerfile,
+# той директории локального компьютера, где сохранён Dockerfile
 # в текущую рабочую директорию образа — /app.
 COPY . .
 
